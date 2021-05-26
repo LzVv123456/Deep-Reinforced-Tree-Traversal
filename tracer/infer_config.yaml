@@ -1,0 +1,27 @@
+# hyper-parameter --------------------------------------------------------------
+step_size: 0.5
+stop_threshold: 150
+bif_threshold: 80
+auto_jump: True
+delay_update: 1
+start_idx: 0
+match_dist: 2
+
+# model ------------------------------------------------------------------------
+input_size: [19,19,19]
+input_channel: 1
+output_channel: 100
+init_channels: 32 
+dueling_dqn: True
+output_num_dis: 2
+
+# directory --------------------------------------------------------------------
+agent_model: './example_data/agent.pth'
+discriminator_model: './example_data/discriminator.pth'
+data_path: './example_data/dataset'
+
+# plot figure ------------------------------------------------------------------
+plot: True
+plot_mode: 'tra-s'
+dynamic_plot: True
+scatter: True
