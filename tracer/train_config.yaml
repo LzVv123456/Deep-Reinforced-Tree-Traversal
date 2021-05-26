@@ -1,0 +1,37 @@
+# routine parameter ------------------------------------------------------------
+epoch: 200
+batch_size: 64
+lr: 0.001
+save_freq: 10
+
+# specific parameter -----------------------------------------------------------
+eps_start: 0.9
+eps_end: 0.1
+eps_decay: 1000
+gamma: 0.9
+update_epoch: 1
+dead_coe: 5
+priority_alpha: 0.6
+priority_beta_start: 0.4
+priority_beta_frames: 200000
+memory_replay_size: 300000
+step_size: 0.5
+delay_update: 2
+forsee: 2
+k: 1
+dyn_r_zone: 2
+match_dist: 2
+reward_match_dist: 4
+stop_dist: 6
+
+# model ------------------------------------------------------------------------
+input_size: [19,19,19]
+input_channel: 1
+output_channel: 100
+init_channels: 32 
+dueling_dqn: True
+output_num_dis: 2
+
+# directory --------------------------------------------------------------------
+train_path: './example_data/dataset'
+save_path: './save_model/'

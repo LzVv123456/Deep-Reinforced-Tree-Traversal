@@ -1,0 +1,17 @@
+# routine parameter ------------------------------------------------------------
+epoch: 200
+aug: True
+num_workers: 4
+batch_size: 256
+
+
+# model ------------------------------------------------------------------------
+input_size: [19,19,19]
+input_channel: 1
+output_channel: 2
+init_channels: 32 
+
+# directory --------------------------------------------------------------------
+train_path: './example_data/dataset'
+val_path: './example_data/dataset'
+save_path: './save_model/'
