@@ -13,6 +13,8 @@ We only test codes under the following environment, other reasonable environment
 pip install all other required libaries.
 
 ## Usages:
+Download the example_data from the link: https://drive.google.com/file/d/1yeJIoBALUGasHyFHAijkNILTtjhwfGXx/view?usp=sharing. Then substitute the place-holder folder with the one you downloaded.
+
 1. To check the effect of the proposed algorithm, run the inference through:
 ```shell
 python tracer/inference.py
