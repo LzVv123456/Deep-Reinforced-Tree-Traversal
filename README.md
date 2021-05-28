@@ -17,18 +17,18 @@ pip install all other required libaries.
 ## Usages:
 Download the example_data from the link: https://drive.google.com/file/d/1yeJIoBALUGasHyFHAijkNILTtjhwfGXx/view?usp=sharing. Then substitute the place-holder folder with the one you downloaded.
 
-1. To check the effect of the proposed algorithm, run the inference through:
+1. To check the effect of the proposed method, run the inference through:
 ```shell
 python tracer/inference.py
 ```
-2. One can also run the train code with the toy data. However it's not likely to get any reasonbale result or weights.:
+2. One can also run the train code with the toy data. However it's not likely to get any reasonbale result or weight:
 ```shell
 python tracer/main.py
 ```
-3. Train discriminator with following command. Still no sensable result is guranteed:
+3. Train the discriminator with the following command. Still no sensable result is guaranteed:
 ```shell
 python discriminator/main.py
 ```
 ## More Words:
 For those who are truly interested in DRL, please reference https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch for more details.
-And honestly speaking, this code is a little bit messy and surely there are more elegent ways to organize the code as well as data structure. However, due to many reasons (mainly because I am too lazy	:ghost:	:ghost:	:ghost:) here we are. So do not stuck into the detailed code, it's not really worth it. Feel free to contact me (lzvv123456@icloud.com) if you have any confusion.
+And honestly speaking, this code is a little bit messy and surely there are more elegent ways to organize the code as well as data structure. However, due to many reasons (mainly because I am too lazy	:ghost:	:ghost:	:ghost:) here we are. So try not to stuck in the detailed code, it's not really worth it. Feel free to contact me (lzvv123456@icloud.com) if you have any confusion.
