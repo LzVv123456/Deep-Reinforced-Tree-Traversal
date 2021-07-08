@@ -31,4 +31,4 @@ python discriminator/main.py
 ```
 ## More Words:
 For those who are truly interested in DRL, please reference https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch for more details.
-And honestly speaking, this code is a little bit messy and surely there are more elegent ways to organize the code as well as data structure. However, due to many reasons (mainly because I am too lazy	:ghost:	:ghost:	:ghost:) here we are. So try not to stuck in the detailed code, it's not really worth it. Feel free to contact me (lzvv123456@icloud.com) if you have any confusion.
+And honestly speaking, this code is a little bit messy and surely there are more elegent ways to organize the code as well as data structure. However, due to many reasons (mainly because I am too lazy	:ghost:	:ghost:	:ghost:) here we are. So try not to stuck in detailed codes. Feel free to contact me (lzvv123456@icloud.com) if you have any confusion.
