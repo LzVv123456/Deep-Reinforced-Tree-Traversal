@@ -1,6 +1,6 @@
 # Deep-Reinforced-Tree-Traversal
 This is the official released code for **A Deep Reinforced Tree-traversal Agent for Coronary Artery Centerline Extraction**. 
-Here we released detailed codes and also a set of toy models in order to visualize the result. Please check the original paper (http://github.com) for detailed ideas.
+Here we released detailed codes and also a set of toy models in order to visualize the result. Please check the original paper (https://doi.org/10.1007/978-3-030-87240-3_40) for detailed ideas.
 
 ![alt text](images/pipeline.png "pipeline")
 
