@@ -1,5 +1,5 @@
 # Deep-Reinforced-Tree-Traversal
-This is the official released code for **A Deep Reinforced Tree-traversal Agent for Coronary Artery Centerline Extraction**. 
+This is the official release for paper **A Deep Reinforced Tree-traversal Agent for Coronary Artery Centerline Extraction**. 
 Here we released detailed codes and also a set of toy models in order to visualize the result. Please check the original paper (https://doi.org/10.1007/978-3-030-87240-3_40) for detailed ideas.
 
 ![alt text](images/pipeline.png "pipeline")
@@ -30,5 +30,16 @@ python tracer/main.py
 python discriminator/main.py
 ```
 ## More Words:
-For those who are truly interested in DRL, please reference https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch for more details.
-And honestly speaking, this code is a little bit messy and surely there are more elegent ways to organize the code as well as data structure. However, due to many reasons (mainly because I am too lazy	:ghost:	:ghost:	:ghost:) here we are. So try not to stuck in detailed codes. Feel free to contact me (lzvv123456@icloud.com) if you have any confusion.
+For those who are truly interested in DRL, please reference https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch for more details. 
+And honestly speaking, this code is a little bit messy and surely there are more elegent ways to organize the code as well as data structure. However, due to many reasons (mainly because I am too lazy	:ghost:	:ghost:	:ghost:) here we are. So try not to stuck in detailed codes. Feel free to contact me (zl502@cs.rutgers.edu) if you have any confusion.
+
+## Reference
+If you find this repository helpful, please consider giving a star and citing the following paper:
+```
+@InProceedings{10.1007/978-3-030-87240-3_40,
+author="Li, Zhuowei and Xia, Qing and Hu, Zhiqiang and Wang, Wenji and Xu, Lijian and Zhang, Shaoting",
+title="A Deep Reinforced Tree-Traversal Agent for Coronary Artery Centerline Extraction",
+booktitle="Medical Image Computing and Computer Assisted Intervention -- MICCAI 2021",
+year="2021",
+}
+```
