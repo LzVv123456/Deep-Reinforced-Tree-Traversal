@@ -5,14 +5,8 @@ Here we released detailed codes and also a set of toy models in order to visuali
 ![alt text](images/pipeline.png "pipeline")
 
 ## Requirements:
-We only test codes under the following environment, other reasonable environment settings should work as well.
-* Ubuntu 16.04
-* CUDA 10.1
-* Python 3.8
-* Pytorch 1.6.0
-*  .....
-
-pip install all other required libaries.
+Please create an environment following requirements.txt to run the code.
+One may need to change the pytorch version according to your own CUDA version.
 
 ## Usages:
 Download the example_data from the link: https://drive.google.com/file/d/1yeJIoBALUGasHyFHAijkNILTtjhwfGXx/view?usp=sharing. Then substitute the place-holder folder with the one you downloaded.
