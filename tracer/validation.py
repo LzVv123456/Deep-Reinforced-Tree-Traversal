@@ -471,7 +471,7 @@ class Evaluate_Agent():
 
         min_dist = int(np.floor(1/self.step_mm)) # min_dist is always 1mm in real word 
         indices = peak_local_max(np.asarray(self.regress_bif_value), min_distance=min_dist, 
-        threshold_abs=self.bif_threshold, indices=True)
+        threshold_abs=self.bif_threshold)
 
         for idx in indices:
             bifurcation_coordinate = self.regress_bif_coord[idx[0]]
@@ -641,6 +641,7 @@ class Evaluate_Agent():
         plt.axis('off')
         plt.grid(False)
         plt.show(block=True)
+        plt.savefig('test.png')
 
     
     def dynamic_plot(self, all_trajectories, fig, ax):
